@@ -1,0 +1,6 @@
+{
+  "name": "Portal Jornada do Projeto",
+  "description": "Portal transparente e exclusivo para acompanhamento 24/7 de projetos residenciais de alto padrão.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
