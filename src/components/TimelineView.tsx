@@ -99,39 +99,39 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
               onClick={() => setSelectedPhaseId(phase.id)}
               className={`p-5 rounded-2xl border text-left transition-all relative overflow-hidden group ${
                 isSelected
-                  ? 'bg-[#2d3732] text-white border-[#2d3732] shadow-md ring-2 ring-[#2d3732]/20'
-                  : 'bg-white text-stone-800 border-stone-200/80 hover:border-stone-300 hover:bg-stone-50/50'
+                  ? 'bg-[#071d33] text-white border-sky-950/50 shadow-md ring-2 ring-sky-500/20'
+                  : 'bg-white text-slate-800 border-slate-200/80 hover:border-slate-300 hover:bg-slate-50/50'
               }`}
             >
               {/* Active Badge Marker */}
               {isActiveCurrent && (
                 <div className={`absolute top-0 right-0 px-2.5 py-0.5 rounded-bl-lg text-[10px] font-semibold tracking-wider uppercase ${
-                  isSelected ? 'bg-amber-400 text-stone-900' : 'bg-amber-100 text-amber-900'
+                  isSelected ? 'bg-sky-400 text-slate-950 font-bold' : 'bg-sky-100 text-sky-900'
                 }`}>
                   Fase Ativa
                 </div>
               )}
 
               <div className="flex items-center justify-between gap-2">
-                <span className={`text-xs font-mono font-medium ${isSelected ? 'text-stone-300' : 'text-stone-500'}`}>
+                <span className={`text-xs font-mono font-medium ${isSelected ? 'text-sky-300' : 'text-slate-500'}`}>
                   {phase.code}
                 </span>
-                <span className="text-[10px] text-stone-400">{phase.duration}</span>
+                <span className="text-[10px] text-slate-400">{phase.duration}</span>
               </div>
 
-              <h3 className={`text-base font-medium mt-2 tracking-tight ${isSelected ? 'text-white' : 'text-stone-900'}`}>
+              <h3 className={`text-base font-semibold mt-2 tracking-tight ${isSelected ? 'text-white' : 'text-slate-900'}`}>
                 {phase.name}
               </h3>
 
-              <p className={`text-xs mt-1.5 line-clamp-2 ${isSelected ? 'text-stone-300 font-light' : 'text-stone-500'}`}>
+              <p className={`text-xs mt-1.5 line-clamp-2 ${isSelected ? 'text-slate-300 font-light' : 'text-slate-500'}`}>
                 {phase.summary}
               </p>
 
               {/* Progress & Responsible Info */}
               <div className="mt-4 pt-3 border-t border-current/10 flex items-center justify-between text-xs">
                 <div className="flex items-center gap-1.5">
-                  <User className={`w-3.5 h-3.5 ${isSelected ? 'text-stone-300' : 'text-stone-400'}`} />
-                  <span className={`text-[11px] ${isSelected ? 'text-stone-300' : 'text-stone-600'}`}>
+                  <User className={`w-3.5 h-3.5 ${isSelected ? 'text-sky-300' : 'text-slate-400'}`} />
+                  <span className={`text-[11px] ${isSelected ? 'text-slate-300' : 'text-slate-600'}`}>
                     {phase.responsible.split(' ')[1] || phase.responsible}
                   </span>
                 </div>
@@ -142,9 +142,9 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
               </div>
 
               {/* Progress Line */}
-              <div className="w-full bg-stone-200/40 h-1 rounded-full mt-3 overflow-hidden">
+              <div className="w-full bg-slate-200/40 h-1.5 rounded-full mt-3 overflow-hidden">
                 <div 
-                  className={`h-full transition-all duration-500 ${isSelected ? 'bg-white' : 'bg-[#2d3732]'}`} 
+                  className={`h-full transition-all duration-500 ${isSelected ? 'bg-sky-400' : 'bg-[#071d33]'}`} 
                   style={{ width: `${phase.progress}%` }}
                 />
               </div>
@@ -154,21 +154,21 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
       </div>
 
       {/* Selected Phase Detail Breakdown */}
-      <div className="bg-white rounded-2xl p-6 sm:p-8 border border-stone-200/80 shadow-xs">
+      <div className="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200/80 shadow-xs">
         
         {/* Detail Top Header */}
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-stone-100">
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-100">
           <div>
             <div className="flex items-center gap-3">
-              <span className="text-xs font-mono text-stone-500 font-semibold px-2.5 py-0.5 rounded bg-stone-100">
+              <span className="text-xs font-mono text-slate-500 font-semibold px-2.5 py-0.5 rounded bg-slate-100">
                 {selectedPhase.code}
               </span>
               {getStatusBadge(selectedPhase.status)}
             </div>
-            <h3 className="text-2xl font-light text-stone-900 mt-2">
+            <h3 className="text-2xl font-light text-slate-900 mt-2">
               {selectedPhase.name}
             </h3>
-            <p className="text-xs sm:text-sm text-stone-600 mt-1 max-w-3xl leading-relaxed">
+            <p className="text-xs sm:text-sm text-slate-600 mt-1 max-w-3xl leading-relaxed">
               {selectedPhase.description}
             </p>
           </div>
@@ -178,9 +178,9 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
               <button
                 id="timeline-approve-phase-btn"
                 onClick={onOpenApprovalModal}
-                className="px-4 py-2 bg-[#2d3732] text-white rounded-xl text-xs font-medium hover:bg-stone-800 transition-colors shadow-xs flex items-center gap-2"
+                className="px-4 py-2 bg-[#071d33] text-white rounded-xl text-xs font-semibold hover:bg-slate-800 transition-colors shadow-xs flex items-center gap-2"
               >
-                <FileCheck className="w-4 h-4" />
+                <FileCheck className="w-4 h-4 text-sky-400" />
                 <span>Aprovar Entrega Desta Fase</span>
               </button>
             )}

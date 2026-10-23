@@ -64,28 +64,58 @@ export interface ActivityLog {
   phaseName?: string;
 }
 
+export interface QuestionOption {
+  id: string;
+  label: string;
+  isCustom?: boolean;
+}
+
+export interface DisciplineQuestion {
+  id: string;
+  title: string;
+  description?: string;
+  hint?: string;
+  options: QuestionOption[];
+}
+
+export interface DisciplineItem {
+  id: string;
+  name: string;
+  shortName: string;
+  description: string;
+  questions: DisciplineQuestion[];
+}
+
+export type DisciplineAnswers = Record<string, {
+  selectedOptionId: string;
+  customText?: string;
+}>;
+
 export interface BriefingData {
-  style: string;
-  familyMembers: number;
-  suites: number;
-  parkingSpaces: number;
-  hasPool: boolean;
-  hasGourmet: boolean;
-  hasHomeOffice: boolean;
-  hasWineCellar: boolean;
-  hasAutomation: boolean;
-  solarOrientationPreference: string;
-  budgetRange: string;
-  specialRequests: string;
-  inspirationKeywords: string[];
+  style?: string;
+  familyMembers?: number;
+  suites?: number;
+  parkingSpaces?: number;
+  hasPool?: boolean;
+  hasGourmet?: boolean;
+  hasHomeOffice?: boolean;
+  hasWineCellar?: boolean;
+  hasAutomation?: boolean;
+  solarOrientationPreference?: string;
+  budgetRange?: string;
+  specialRequests?: string;
+  inspirationKeywords?: string[];
   lastSavedAt?: string;
   isCompleted?: boolean;
+  selectedDisciplines?: string[];
+  disciplineAnswers?: DisciplineAnswers;
 }
 
 export interface ProjectInfo {
   id: string;
   name: string;
   clientName: string;
+  developer?: string;
   code: string;
   address: string;
   city: string;
@@ -99,4 +129,10 @@ export interface ProjectInfo {
   estimatedCompletion: string;
   decisionsApproved: number;
   totalDecisions: number;
+  facadeImage?: string;
+  units?: string;
+  floors?: string;
+  typology?: string;
+  tagline?: string;
+  statusBadge?: string;
 }

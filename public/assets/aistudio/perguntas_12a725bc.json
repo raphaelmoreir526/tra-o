@@ -1,0 +1,183 @@
+{
+  "versao": "1.0",
+  "titulo": "Briefing de Projetos – Edifício Residencial Multifamiliar",
+  "opcao_personalizada": "Outra resposta (descreva)",
+  "disciplinas": [
+    {
+      "id": "arq",
+      "nome": "Arquitetura",
+      "descricao": "Definições que orientam o partido arquitetônico, as plantas e as áreas técnicas.",
+      "perguntas": [
+        {"id": "arq01", "pergunta": "Qual o padrão do empreendimento?", "dica": "Define acabamentos, áreas e o nível de todas as instalações.", "opcoes": ["Econômico / programa habitacional", "Médio padrão", "Alto padrão / luxo"]},
+        {"id": "arq02", "pergunta": "Quantos pavimentos-tipo (andares de apartamentos) estão previstos?", "dica": "Acima de 4 pavimentos normalmente há exigência de elevador.", "opcoes": ["Até 4 pavimentos", "De 5 a 12 pavimentos", "Mais de 12 pavimentos"]},
+        {"id": "arq03", "pergunta": "Quantos apartamentos por andar?", "dica": "", "opcoes": ["2 por andar", "4 por andar", "6 ou mais por andar"]},
+        {"id": "arq04", "pergunta": "Qual a tipologia predominante dos apartamentos?", "dica": "", "opcoes": ["Studio ou 1 quarto", "2 quartos (1 suíte)", "3 quartos ou mais (2 ou mais suítes)"]},
+        {"id": "arq05", "pergunta": "Qual a área privativa média das unidades?", "dica": "", "opcoes": ["Até 50 m²", "De 50 a 90 m²", "Acima de 90 m²"]},
+        {"id": "arq06", "pergunta": "Quantas vagas de garagem por unidade?", "dica": "", "opcoes": ["1 vaga", "2 vagas", "3 vagas ou mais"]},
+        {"id": "arq07", "pergunta": "Onde ficará a garagem?", "dica": "Subsolos exigem drenagem, bombas de recalque e ventilação.", "opcoes": ["Térreo / pilotis", "Subsolo(s)", "Pavimentos de garagem elevados"]},
+        {"id": "arq08", "pergunta": "Qual o sistema construtivo previsto?", "dica": "Afeta a passagem de tubulações e a flexibilidade das plantas.", "opcoes": ["Estrutura de concreto armado com alvenaria de vedação", "Alvenaria estrutural", "Paredes de concreto moldadas no local"]},
+        {"id": "arq09", "pergunta": "Como será a cozinha?", "dica": "", "opcoes": ["Fechada", "Americana, integrada à sala", "Integrada à varanda gourmet"]},
+        {"id": "arq10", "pergunta": "Que tipo de varanda as unidades terão?", "dica": "", "opcoes": ["Sem varanda", "Varanda simples", "Varanda gourmet com churrasqueira"]},
+        {"id": "arq11", "pergunta": "Qual o nível da área de lazer?", "dica": "", "opcoes": ["Básico: salão de festas e playground", "Intermediário: + piscina, academia e espaço gourmet", "Completo (clube): + quadra, sauna, coworking e pet place"]},
+        {"id": "arq12", "pergunta": "Como será a portaria?", "dica": "", "opcoes": ["Presencial 24 horas", "Remota (portaria virtual)", "Híbrida"]},
+        {"id": "arq13", "pergunta": "Onde haverá forro de gesso nas unidades?", "dica": "O forro esconde tubulações e permite iluminação embutida.", "opcoes": ["Somente em banheiros e área de serviço", "Áreas molhadas e circulação", "Em todos os ambientes"]},
+        {"id": "arq14", "pergunta": "Qual o tipo de esquadria (janelas e portas externas)?", "dica": "", "opcoes": ["Alumínio, linha padrão", "Alumínio, linha superior com vidro laminado", "PVC ou alumínio com isolamento acústico"]},
+        {"id": "arq15", "pergunta": "Qual o nível de desempenho desejado pela NBR 15575?", "dica": "A norma exige no mínimo o nível Mínimo; níveis maiores melhoram conforto acústico, térmico e durabilidade.", "opcoes": ["Mínimo", "Intermediário", "Superior"]}
+      ]
+    },
+    {
+      "id": "hid",
+      "nome": "Hidrossanitário",
+      "descricao": "Água fria e quente, esgoto, águas pluviais e combate a incêndio hidráulico.",
+      "perguntas": [
+        {"id": "hid01", "pergunta": "Como será o abastecimento de água?", "dica": "", "opcoes": ["Rede pública da concessionária", "Rede pública + poço artesiano", "Poço ou fonte própria"]},
+        {"id": "hid02", "pergunta": "Qual o sistema de distribuição de água?", "dica": "A pressurização dispensa a caixa d'água na cobertura, mas depende de energia constante.", "opcoes": ["Reservatório superior por gravidade", "Pressurizado com bombas (sem reservatório superior)", "Misto (gravidade + pressurização nos últimos andares)"]},
+        {"id": "hid03", "pergunta": "Qual a reservação de água desejada?", "dica": "", "opcoes": ["1 dia de consumo", "2 dias de consumo", "A critério do projetista, conforme a concessionária"]},
+        {"id": "hid04", "pergunta": "Como será a medição individual de água?", "dica": "", "opcoes": ["Hidrômetro por unidade, no hall do andar", "Hidrômetros agrupados no térreo", "Medição remota (telemetria)"]},
+        {"id": "hid05", "pergunta": "Qual a fonte de aquecimento de água?", "dica": "", "opcoes": ["Chuveiro elétrico", "Aquecedor a gás de passagem", "Solar ou bomba de calor (com apoio)"]},
+        {"id": "hid06", "pergunta": "Quais pontos terão água quente?", "dica": "", "opcoes": ["Somente chuveiros", "Chuveiros e lavatórios", "Chuveiros, lavatórios e pia da cozinha"]},
+        {"id": "hid07", "pergunta": "Qual material de tubulação de água prefere?", "dica": "", "opcoes": ["PVC (fria) + CPVC (quente)", "PPR (fria e quente)", "PEX (fria e quente)"]},
+        {"id": "hid08", "pergunta": "Qual o destino do esgoto?", "dica": "", "opcoes": ["Rede pública coletora", "Fossa séptica + filtro", "Estação de tratamento compacta (ETE)"]},
+        {"id": "hid09", "pergunta": "Qual o padrão acústico das prumadas de esgoto?", "dica": "Tubulações silenciosas reduzem o ruído de descargas entre apartamentos.", "opcoes": ["PVC convencional", "PVC reforçado com isolamento acústico", "Tubos acústicos (silenciosos)"]},
+        {"id": "hid10", "pergunta": "Que tipo de ralo nos boxes dos banheiros?", "dica": "", "opcoes": ["Ralo sifonado comum", "Ralo linear", "A critério do projetista"]},
+        {"id": "hid11", "pergunta": "Como serão as caixas de gordura?", "dica": "", "opcoes": ["Individual por unidade", "Coletiva por prumada, no térreo", "A critério do projetista"]},
+        {"id": "hid12", "pergunta": "O município exige reservatório de retenção de águas pluviais?", "dica": "Muitas prefeituras exigem para lotes com alta taxa de impermeabilização.", "opcoes": ["Sim, é exigido", "Não é exigido", "Não sei — verificar na prefeitura"]},
+        {"id": "hid13", "pergunta": "Deseja aproveitamento de água de chuva ou reuso?", "dica": "", "opcoes": ["Não", "Água de chuva para rega e lavagem", "Água de chuva + reuso de águas cinzas para descargas"]},
+        {"id": "hid14", "pergunta": "Como será a piscina?", "dica": "", "opcoes": ["Não haverá piscina", "Piscina sem aquecimento", "Piscina aquecida"]},
+        {"id": "hid15", "pergunta": "Qual o sistema hidráulico de combate a incêndio?", "dica": "A exigência final depende da classificação do Corpo de Bombeiros.", "opcoes": ["Hidrantes ou mangotinhos, conforme o bombeiro", "Hidrantes + chuveiros automáticos (sprinklers)", "Somente extintores (edificação baixa)"]}
+      ]
+    },
+    {
+      "id": "ele",
+      "nome": "Elétrico",
+      "descricao": "Entrada de energia, medição, instalações das unidades e das áreas comuns.",
+      "perguntas": [
+        {"id": "ele01", "pergunta": "Qual a tensão de fornecimento da região?", "dica": "", "opcoes": ["127/220 V", "220/380 V", "Não sei — verificar com a distribuidora"]},
+        {"id": "ele02", "pergunta": "Como será a entrada de energia?", "dica": "Empreendimentos com grande demanda podem exigir transformador próprio.", "opcoes": ["Baixa tensão direto da rede", "Subestação / transformador próprio", "A critério do projetista, conforme a demanda"]},
+        {"id": "ele03", "pergunta": "Onde ficará o centro de medição?", "dica": "", "opcoes": ["Agrupado no térreo", "Por andar", "Medição remota"]},
+        {"id": "ele04", "pergunta": "Qual o tipo de ligação de cada unidade?", "dica": "", "opcoes": ["Monofásica", "Bifásica", "Trifásica"]},
+        {"id": "ele05", "pergunta": "Como será a cocção nas cozinhas?", "dica": "Cooktop de indução e forno elétrico aumentam muito a carga elétrica.", "opcoes": ["Fogão / cooktop a gás", "Cooktop de indução + forno elétrico", "Infraestrutura para gás e indução"]},
+        {"id": "ele06", "pergunta": "Haverá chuveiro elétrico?", "dica": "", "opcoes": ["Sim, em todos os banheiros", "Não (aquecimento a gás, solar ou central)", "Apenas ponto elétrico de reserva"]},
+        {"id": "ele07", "pergunta": "Qual a quantidade de tomadas nas unidades?", "dica": "", "opcoes": ["Mínimo da NBR 5410", "Mínimo + cerca de 20%", "Padrão elevado, com tomadas USB"]},
+        {"id": "ele08", "pergunta": "Quais ambientes terão ponto elétrico para ar-condicionado?", "dica": "", "opcoes": ["Somente suítes", "Todos os quartos", "Quartos e sala"]},
+        {"id": "ele09", "pergunta": "Como será a iluminação das unidades?", "dica": "", "opcoes": ["Ponto simples no teto por ambiente", "Pontos + infraestrutura para spots e sancas", "Projeto luminotécnico completo"]},
+        {"id": "ele10", "pergunta": "Haverá automação residencial?", "dica": "", "opcoes": ["Não", "Somente infraestrutura seca (tubulação)", "Sistema instalado (cenas, persianas, voz)"]},
+        {"id": "ele11", "pergunta": "Haverá gerador?", "dica": "", "opcoes": ["Não", "Somente cargas de emergência (elevador, bombas, iluminação)", "Áreas comuns completas"]},
+        {"id": "ele12", "pergunta": "Deseja sistema fotovoltaico (energia solar)?", "dica": "", "opcoes": ["Não", "Sim, para as áreas comuns", "Sim, para áreas comuns e unidades"]},
+        {"id": "ele13", "pergunta": "Como será a recarga de veículos elétricos?", "dica": "", "opcoes": ["Não prevista", "Infraestrutura seca para futuras instalações", "Carregadores instalados em parte das vagas"]},
+        {"id": "ele14", "pergunta": "Como será o controle da iluminação das áreas comuns?", "dica": "", "opcoes": ["Interruptores convencionais", "Sensores de presença", "Automação com horários e dimerização"]},
+        {"id": "ele15", "pergunta": "Qual a linha de acabamento de tomadas e interruptores?", "dica": "", "opcoes": ["Linha básica", "Linha intermediária", "Linha premium"]}
+      ]
+    },
+    {
+      "id": "tel",
+      "nome": "Telefone / Interfone",
+      "descricao": "Telecomunicações, interfone, segurança e controle de acesso.",
+      "perguntas": [
+        {"id": "tel01", "pergunta": "Como será a entrada das operadoras de telecomunicações?", "dica": "", "opcoes": ["Subterrânea", "Aérea", "A critério do projetista"]},
+        {"id": "tel02", "pergunta": "Qual a estrutura da rede de dados do prédio?", "dica": "", "opcoes": ["Infraestrutura seca para as operadoras", "Fibra até cada unidade (FTTH), multioperadora", "Rede própria do condomínio em cabo Cat 6"]},
+        {"id": "tel03", "pergunta": "Como será o quadro de telecom dentro da unidade?", "dica": "", "opcoes": ["Caixa de passagem simples", "Centro de distribuição com tomada para roteador", "Mini-rack"]},
+        {"id": "tel04", "pergunta": "Quantos pontos de dados (internet cabeada) por unidade?", "dica": "", "opcoes": ["Sala e suíte", "Todos os ambientes de permanência", "Todos + ponto no teto para Wi-Fi"]},
+        {"id": "tel05", "pergunta": "Qual o cabeamento interno das unidades?", "dica": "", "opcoes": ["Somente tubulação seca", "Cabo Cat 6", "Cabo Cat 6A ou fibra óptica"]},
+        {"id": "tel06", "pergunta": "Onde haverá pontos de TV?", "dica": "", "opcoes": ["Somente sala", "Sala e suítes", "Sala e todos os quartos"]},
+        {"id": "tel07", "pergunta": "Haverá ponto de telefone fixo?", "dica": "", "opcoes": ["Não", "Um ponto na sala", "Sala e cozinha"]},
+        {"id": "tel08", "pergunta": "Qual o tipo de interfone?", "dica": "", "opcoes": ["Interfone analógico", "Interfone digital / IP com aplicativo", "Vídeo-porteiro com aplicativo"]},
+        {"id": "tel09", "pergunta": "Onde haverá pontos de interfone?", "dica": "", "opcoes": ["Unidades e portaria", "Unidades, portaria, portões e garagem", "Todos os anteriores + lazer e elevadores"]},
+        {"id": "tel10", "pergunta": "Qual a abrangência do CFTV (câmeras)?", "dica": "", "opcoes": ["Básico: acessos", "Intermediário: acessos, garagem e lazer", "Completo, com análise inteligente de vídeo"]},
+        {"id": "tel11", "pergunta": "Como será o controle de acesso de pedestres?", "dica": "", "opcoes": ["Tag ou cartão", "Biometria", "Reconhecimento facial"]},
+        {"id": "tel12", "pergunta": "Como será o controle de acesso de veículos?", "dica": "", "opcoes": ["Controle remoto", "TAG veicular", "Leitura de placa (LPR)"]},
+        {"id": "tel13", "pergunta": "Haverá clausura (eclusa) nos acessos?", "dica": "Clausura é um espaço entre dois portões que só abrem um de cada vez.", "opcoes": ["Não", "Somente para pedestres", "Para pedestres e veículos"]},
+        {"id": "tel14", "pergunta": "Qual a segurança perimetral?", "dica": "", "opcoes": ["Nenhuma além do fechamento", "Cerca elétrica", "Cerca elétrica + sensores infravermelhos"]},
+        {"id": "tel15", "pergunta": "Haverá Wi-Fi nas áreas comuns?", "dica": "", "opcoes": ["Não", "Somente nas áreas de lazer", "Em todas as áreas comuns"]}
+      ]
+    },
+    {
+      "id": "spda",
+      "nome": "SPDA",
+      "descricao": "Proteção contra descargas atmosféricas (para-raios), conforme ABNT NBR 5419:2026.",
+      "perguntas": [
+        {"id": "spda01", "pergunta": "Já existe análise de risco de SPDA para o projeto?", "dica": "A NBR 5419 foi revisada em 2026; análises feitas pela edição de 2015 devem ser refeitas.", "opcoes": ["Não — o projetista elabora", "Sim, pela edição de 2015 (refazer)", "Sim, já pela edição de 2026"]},
+        {"id": "spda02", "pergunta": "Qual a altura aproximada da edificação?", "dica": "", "opcoes": ["Até 15 m", "De 15 a 45 m", "Acima de 45 m"]},
+        {"id": "spda03", "pergunta": "Como é o entorno do edifício?", "dica": "Edifícios isolados ou mais altos que o entorno ficam mais expostos.", "opcoes": ["Isolado ou mais alto que o entorno", "Cercado por edificações de altura semelhante", "Cercado por edificações mais altas"]},
+        {"id": "spda04", "pergunta": "Qual o método de captação preferido?", "dica": "", "opcoes": ["Malha na cobertura (gaiola de Faraday)", "Mastros captores + malha", "A critério do projetista"]},
+        {"id": "spda05", "pergunta": "Como serão as descidas?", "dica": "Usar as armaduras do concreto evita cabos na fachada, mas exige coordenação com o projeto estrutural.", "opcoes": ["Armaduras da estrutura (descidas naturais)", "Cabos externos aparentes", "Cabos embutidos em eletroduto"]},
+        {"id": "spda06", "pergunta": "Elementos do SPDA podem ficar aparentes na fachada?", "dica": "", "opcoes": ["Não, nada aparente", "Apenas em fachadas secundárias", "Sim, podem ficar aparentes"]},
+        {"id": "spda07", "pergunta": "Como será o aterramento?", "dica": "", "opcoes": ["Armaduras das fundações", "Anel de cabo de cobre enterrado", "Combinação dos dois"]},
+        {"id": "spda08", "pergunta": "Qual o tipo de cobertura?", "dica": "", "opcoes": ["Laje impermeabilizada", "Telhado metálico", "Telhado de fibrocimento ou cerâmico"]},
+        {"id": "spda09", "pergunta": "Quais equipamentos ficarão na cobertura?", "dica": "Todos os elementos metálicos precisam ser interligados ao SPDA.", "opcoes": ["Apenas reservatório e casa de máquinas", "Reservatório + condensadoras de ar-condicionado", "Reservatório, condensadoras, placas solares e antenas"]},
+        {"id": "spda10", "pergunta": "A cobertura terá uso por pessoas?", "dica": "", "opcoes": ["Não, apenas técnica", "Sim, área de lazer aberta (rooftop)", "Sim, com piscina"]},
+        {"id": "spda11", "pergunta": "Onde instalar dispositivos de proteção contra surtos (DPS)?", "dica": "", "opcoes": ["Somente no quadro geral", "Quadro geral + quadros das áreas comuns", "Todos os quadros, inclusive unidades e telecom"]},
+        {"id": "spda12", "pergunta": "Como proteger equipamentos sensíveis (portaria, CFTV, elevadores)?", "dica": "", "opcoes": ["DPS padrão", "DPS coordenados em cascata", "A critério do projetista"]},
+        {"id": "spda13", "pergunta": "Onde ficarão as caixas de inspeção e medição?", "dica": "", "opcoes": ["No piso", "Na parede, junto às descidas", "A critério do projetista"]},
+        {"id": "spda14", "pergunta": "Qual material dos condutores?", "dica": "", "opcoes": ["Cobre", "Alumínio", "Aço galvanizado"]},
+        {"id": "spda15", "pergunta": "O escopo inclui medições e laudo na obra?", "dica": "", "opcoes": ["Não incluir", "Incluir medição de continuidade das armaduras", "Incluir medições + laudo final de conformidade"]}
+      ]
+    },
+    {
+      "id": "sdai",
+      "nome": "SDAI",
+      "descricao": "Sistema de detecção e alarme de incêndio e medidas integradas.",
+      "perguntas": [
+        {"id": "sdai01", "pergunta": "Qual a altura da edificação para o Corpo de Bombeiros?", "dica": "Medida do piso de saída até o piso do último pavimento habitável.", "opcoes": ["Até 12 m", "De 12 a 30 m", "Acima de 30 m"]},
+        {"id": "sdai02", "pergunta": "Qual a área construída total?", "dica": "", "opcoes": ["Até 750 m²", "De 750 a 5.000 m²", "Acima de 5.000 m²"]},
+        {"id": "sdai03", "pergunta": "Qual a abrangência desejada do sistema?", "dica": "", "opcoes": ["Somente o exigido pelo bombeiro", "Exigido + detecção em salas técnicas", "Exigido + detecção ampliada nas áreas comuns"]},
+        {"id": "sdai04", "pergunta": "Qual o tipo de central de alarme?", "dica": "A endereçável indica o local exato do alarme.", "opcoes": ["Convencional (por zona)", "Endereçável", "A critério do projetista"]},
+        {"id": "sdai05", "pergunta": "Haverá detectores dentro dos apartamentos?", "dica": "", "opcoes": ["Não", "Detector autônomo a bateria", "Detector integrado ao sistema do prédio"]},
+        {"id": "sdai06", "pergunta": "Onde ficarão os acionadores manuais?", "dica": "", "opcoes": ["Halls e escadas", "Halls, escadas, garagem e lazer", "A critério do projetista, conforme norma"]},
+        {"id": "sdai07", "pergunta": "Qual o tipo de avisador?", "dica": "", "opcoes": ["Sonoro", "Sonoro e visual", "Sonoro, visual e mensagem de voz"]},
+        {"id": "sdai08", "pergunta": "Onde ficará a central de alarme?", "dica": "", "opcoes": ["Na portaria", "Em sala técnica, com painel repetidor na portaria", "Em sala de segurança dedicada"]},
+        {"id": "sdai09", "pergunta": "Como será o monitoramento?", "dica": "", "opcoes": ["Somente local", "Remoto, por empresa de monitoramento", "Local e remoto"]},
+        {"id": "sdai10", "pergunta": "A escada de emergência será pressurizada?", "dica": "Depende da altura e das exigências do bombeiro.", "opcoes": ["Não exigida", "Sim, integrar ao alarme", "Não sei — verificar com o bombeiro"]},
+        {"id": "sdai11", "pergunta": "Como os elevadores responderão ao alarme?", "dica": "", "opcoes": ["Sem integração", "Retorno automático ao térreo", "Retorno ao térreo + elevador de emergência"]},
+        {"id": "sdai12", "pergunta": "Haverá detecção na garagem?", "dica": "", "opcoes": ["Não", "Detectores de temperatura", "Detectores de fumaça"]},
+        {"id": "sdai13", "pergunta": "Como será a iluminação de emergência?", "dica": "", "opcoes": ["Blocos autônomos", "Sistema central com baterias", "Sistema alimentado pelo gerador"]},
+        {"id": "sdai14", "pergunta": "Haverá chuveiros automáticos (sprinklers)?", "dica": "", "opcoes": ["Não exigidos", "Sim, exigidos pelo bombeiro", "Sim, por opção do empreendedor"]},
+        {"id": "sdai15", "pergunta": "Quem consolida o projeto de segurança contra incêndio para aprovação?", "dica": "", "opcoes": ["O projetista do SDAI", "Outro profissional contratado", "Já existe projeto aprovado"]}
+      ]
+    },
+    {
+      "id": "clim",
+      "nome": "Climatização",
+      "descricao": "Ar-condicionado, ventilação e exaustão das unidades e áreas comuns.",
+      "perguntas": [
+        {"id": "clim01", "pergunta": "O que será entregue nas unidades?", "dica": "", "opcoes": ["Somente infraestrutura (tubulação, dreno e elétrica)", "Infraestrutura + equipamentos em parte dos ambientes", "Equipamentos instalados em todos os ambientes previstos"]},
+        {"id": "clim02", "pergunta": "Quais ambientes serão climatizados?", "dica": "", "opcoes": ["Somente suítes", "Todos os quartos", "Quartos e sala"]},
+        {"id": "clim03", "pergunta": "Qual o sistema nas unidades?", "dica": "", "opcoes": ["Split hi-wall", "Multi-split (uma condensadora para vários ambientes)", "Dutado (built-in no forro) ou VRF"]},
+        {"id": "clim04", "pergunta": "Onde ficarão as condensadoras?", "dica": "Definir agora evita equipamentos improvisados na fachada.", "opcoes": ["Varanda técnica ou nicho com veneziana", "Área comum na cobertura", "Na fachada, com suporte padronizado"]},
+        {"id": "clim05", "pergunta": "Como será o dreno do ar-condicionado?", "dica": "", "opcoes": ["Prumada dedicada por gravidade", "Ligação ao ralo da varanda ou área de serviço", "Bomba de condensado"]},
+        {"id": "clim06", "pergunta": "Qual a capacidade-base dos aparelhos nos quartos?", "dica": "", "opcoes": ["9.000 BTU/h", "12.000 BTU/h", "A critério, por cálculo de carga térmica"]},
+        {"id": "clim07", "pergunta": "Haverá forro rebaixado para dutos?", "dica": "Rebaixos reduzem o pé-direito.", "opcoes": ["Não", "Somente na circulação", "Em todos os ambientes climatizados"]},
+        {"id": "clim08", "pergunta": "Como será a exaustão de banheiros sem janela?", "dica": "", "opcoes": ["Exaustor individual com saída na fachada", "Duto coletivo vertical", "Projetar todos os banheiros com janela"]},
+        {"id": "clim09", "pergunta": "Como será a exaustão da cozinha?", "dica": "", "opcoes": ["Depurador (sem saída externa)", "Coifa com saída na fachada", "Duto coletivo de exaustão"]},
+        {"id": "clim10", "pergunta": "Quais áreas comuns serão climatizadas?", "dica": "", "opcoes": ["Portaria e salão de festas", "Portaria, salão, academia e espaço gourmet", "Todas as áreas comuns fechadas"]},
+        {"id": "clim11", "pergunta": "Qual o sistema das áreas comuns?", "dica": "", "opcoes": ["Splits independentes", "VRF central", "A critério do projetista"]},
+        {"id": "clim12", "pergunta": "Como será a renovação de ar nas áreas comuns?", "dica": "", "opcoes": ["Natural, por janelas", "Mecânica nos salões e academia", "Mecânica com recuperação de energia"]},
+        {"id": "clim13", "pergunta": "Como será a ventilação da garagem?", "dica": "", "opcoes": ["Natural", "Mecânica, com sensores de monóxido de carbono", "Não há garagem em subsolo"]},
+        {"id": "clim14", "pergunta": "Haverá piscina coberta?", "dica": "", "opcoes": ["Não", "Sim, com ventilação", "Sim, com desumidificação"]},
+        {"id": "clim15", "pergunta": "Incluir plano de manutenção (PMOC) das áreas comuns?", "dica": "O PMOC é obrigatório por lei para sistemas de climatização de uso coletivo.", "opcoes": ["Sim", "Não", "A critério do projetista"]}
+      ]
+    },
+    {
+      "id": "gas",
+      "nome": "Gás",
+      "descricao": "Rede de gás combustível, medição e aparelhos.",
+      "perguntas": [
+        {"id": "gas01", "pergunta": "Qual a fonte de gás?", "dica": "", "opcoes": ["Gás natural (GN) da rede pública", "GLP em central própria", "GLP com previsão de conversão para GN"]},
+        {"id": "gas02", "pergunta": "Se GLP, como será a central?", "dica": "", "opcoes": ["Cilindros P-45", "Cilindros P-190", "Tanque estacionário"]},
+        {"id": "gas03", "pergunta": "Como será a medição individual de gás?", "dica": "", "opcoes": ["Medidores agrupados no térreo", "Medidores por andar, no hall", "Medição remota"]},
+        {"id": "gas04", "pergunta": "Quais aparelhos da cozinha usarão gás?", "dica": "", "opcoes": ["Fogão ou cooktop", "Cooktop e forno", "Nenhum (cozinha elétrica)"]},
+        {"id": "gas05", "pergunta": "Haverá aquecedor de água a gás?", "dica": "", "opcoes": ["Não", "Sim, na área de serviço", "Sim, em varanda técnica ou nicho externo"]},
+        {"id": "gas06", "pergunta": "Qual a vazão do aquecedor por unidade?", "dica": "", "opcoes": ["15 a 20 L/min", "25 a 35 L/min", "A critério do projetista"]},
+        {"id": "gas07", "pergunta": "Haverá ponto para secadora a gás?", "dica": "", "opcoes": ["Não", "Sim, somente ponto de gás", "Sim, ponto de gás + exaustão"]},
+        {"id": "gas08", "pergunta": "Como será a churrasqueira da varanda?", "dica": "", "opcoes": ["A carvão", "Elétrica", "A gás"]},
+        {"id": "gas09", "pergunta": "Quais áreas comuns usarão gás?", "dica": "", "opcoes": ["Nenhuma", "Espaço gourmet", "Espaço gourmet + aquecimento de piscina ou de água central"]},
+        {"id": "gas10", "pergunta": "Qual material da tubulação?", "dica": "", "opcoes": ["Aço galvanizado", "Cobre", "Multicamada (PEX-AL-PEX)"]},
+        {"id": "gas11", "pergunta": "Onde passarão as prumadas de gás?", "dica": "", "opcoes": ["Em shaft ventilado", "Aparentes na fachada", "A critério do projetista"]},
+        {"id": "gas12", "pergunta": "Quais dispositivos de segurança?", "dica": "", "opcoes": ["Válvula de bloqueio por unidade", "Válvula + detector de vazamento", "Detector com válvula de corte automático"]},
+        {"id": "gas13", "pergunta": "Como será a ventilação permanente dos ambientes com gás?", "dica": "", "opcoes": ["Janela ou veneziana", "Grelha em porta ou parede", "A critério do projetista"]},
+        {"id": "gas14", "pergunta": "Como será a exaustão do aquecedor?", "dica": "", "opcoes": ["Chaminé individual até a fachada", "Duto coletivo", "Aquecedor em área externa (sem chaminé)"]},
+        {"id": "gas15", "pergunta": "Qual a pressão de distribuição na prumada?", "dica": "", "opcoes": ["Baixa pressão", "Média pressão com reguladores por andar", "A critério do projetista"]}
+      ]
+    }
+  ]
+}
